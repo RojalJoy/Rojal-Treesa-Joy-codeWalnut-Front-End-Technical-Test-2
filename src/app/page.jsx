@@ -9,10 +9,10 @@ const PokemonSearchApp = () => {
   const [error, setError] = useState('');
   const [pokemonList, setPokemonList] = useState([]);
   const [showList, setShowList] = useState(false);
-  const [sortOption, setSortOption] = useState('name'); // Default sort by name
+  const [sortOption, setSortOption] = useState('name'); 
   const [filteredPokemonList, setFilteredPokemonList] = useState([]);
 
-  // Fetch all Pokémon names and IDs when the component is mounted
+ 
   useEffect(() => {
     const fetchPokemonList = async () => {
       try {
@@ -20,10 +20,10 @@ const PokemonSearchApp = () => {
         const data = await response.json();
         const names = data.results.map((pokemon, index) => ({
           name: pokemon.name,
-          id: index + 1, // PokeAPI does not return the ID, so we use the index + 1
+          id: index + 1,
         }));
         setPokemonList(names);
-        setFilteredPokemonList(names); // Set initial filtered list to the full list
+        setFilteredPokemonList(names); 
       } catch (err) {
         console.error('Failed to fetch Pokémon list:', err);
       }
