@@ -6,7 +6,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/CW-Codewalnut/codewalnut-front-end-tech-test.git
+git clone https://github.com/RojalJoy/Rojal-Treesa-Joy-codeWalnut-Front-End-Technical-Test-2.git
 ```
 
 ### 2.My approach, along with any challenges or trade-offs I have encountered.
