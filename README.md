@@ -11,8 +11,6 @@ git clone https://github.com/RojalJoy/Rojal-Treesa-Joy-codeWalnut-Front-End-Tech
 
 ### 2.My approach, along with any challenges or trade-offs I have encountered.
 
-1. Approach & Challenges
-
 **React with Hooks:** Used useState and useEffect for state and API calls.
 
 useState is used to manage:
